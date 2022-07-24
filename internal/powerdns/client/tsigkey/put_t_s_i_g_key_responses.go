@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/models"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/models"
 )
 
 // PutTSIGKeyReader is a Reader for the PutTSIGKey structure.

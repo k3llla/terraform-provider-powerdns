@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/models"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/models"
 )
 
 // NewCreateZoneParams creates a new CreateZoneParams object,

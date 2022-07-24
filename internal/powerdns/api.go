@@ -8,9 +8,9 @@ import (
 	"github.com/go-openapi/runtime"
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
-	apiclient "github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/zones"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/models"
+	apiclient "github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/zones"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/models"
 )
 
 type Client struct {

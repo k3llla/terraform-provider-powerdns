@@ -1,4 +1,4 @@
-package provider
+package powerdns
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns"
 )
 
 // provider satisfies the tfsdk.Provider interface and usually is included

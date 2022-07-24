@@ -1,4 +1,4 @@
-package provider
+package powerdns
 
 import (
 	"context"

@@ -1,4 +1,4 @@
-module github.com/gonzolino/terraform-provider-powerdns
+module github.com/k3llla/terraform-provider-powerdns
 
 go 1.17
 

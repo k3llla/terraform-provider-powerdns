@@ -1,17 +1,18 @@
-package provider
+package powerdns
 
 import (
 	"context"
 	"fmt"
 	"strings"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
+	//"github.com/k3llla/terraform-provider-powerdns/internal/powerdns"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns"
 )
 
 type recordsetResourceType struct{}

@@ -10,16 +10,16 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/autoprimary"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/config"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/operations"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/search"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/servers"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/stats"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/tsigkey"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/zonecryptokey"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/zonemetadata"
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/client/zones"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/autoprimary"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/config"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/operations"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/search"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/servers"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/stats"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/tsigkey"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/zonecryptokey"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/zonemetadata"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/client/zones"
 )
 
 // Default power DNS authoritative HTTP API HTTP client.

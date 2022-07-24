@@ -18,7 +18,7 @@ import (
 	"github.com/go-openapi/swag"
 	"github.com/go-openapi/validate"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/models"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/models"
 )
 
 // GetStatsReader is a Reader for the GetStats structure.

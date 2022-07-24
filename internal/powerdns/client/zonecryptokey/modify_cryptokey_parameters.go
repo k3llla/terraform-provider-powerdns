@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/powerdns/models"
+	"github.com/k3llla/terraform-provider-powerdns/internal/powerdns/models"
 )
 
 // NewModifyCryptokeyParams creates a new ModifyCryptokeyParams object,

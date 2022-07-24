@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/k3llla/terraform-provider-powerdns/powerdns"
 	"log"
 
-	"github.com/gonzolino/terraform-provider-powerdns/internal/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
@@ -35,11 +35,11 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/gonzolino/powerdns",
+		Address: "registry.terraform.io/k3llla/powerdns",
 		Debug:   debug,
 	}
 
-	err := providerserver.Serve(context.Background(), provider.New(version), opts)
+	err := providerserver.Serve(context.Background(), powerdns.New(version), opts)
 
 	if err != nil {
 		log.Fatal(err.Error())
